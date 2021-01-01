@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./photo-1526392587392-d1627b6c134a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   
+   }
+
+.main-div{
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+.registation-form {
+    width: 600px;
+    background: rgba(3, 3, 3, 0.4);
+    margin: 100px auto;
+    padding: 40px 20px;
+    position: absolute;
+    top: -52px;
+    right: 37px;
+}
+
+
+
+   .registation-form h1 {
+    color: aquamarine;
+    font-size: 56px;
+    text-align: center;
+}
+
+.registation-form{
+    width: 600px;
+    background: rgba(3, 3, 3, 0.4);
+    margin: 100px auto;
+    padding:40px 20px;
+    border-radius: 10px;
+}
+
+.registation-form input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    background: rgb(226, 217, 217);
+    border: 1px solid yellow;
+    color: black;
+    /* border-radius: 5px; */
+}
+
+.registation-form label{
+    color: white;
+    cursor: pointer;
+    display: block;
+    padding: 10px 0px;
+    font-size: 25px;
+    font-family: tahoma;
+}
+
+.submit-button{
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    background: #2980b9;
+    border: 1px solid yellow;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+     border-radius: 5px; 
+
+}
+
+.registation-form p {
+    font-family: tahoma;
+    margin-top: 18px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.registation-form a {
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: tahoma;
+}
